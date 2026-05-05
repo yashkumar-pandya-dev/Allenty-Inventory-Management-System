@@ -16,22 +16,26 @@ A comprehensive full-stack inventory management solution with web and mobile app
 ## Tech Stack
 
 ### Backend
+
 - **Framework**: Django + Django REST Framework
 - **Database**: SQLite (development)
 - **Python**: 3.x
 
 ### Frontend - Web
+
 - **Framework**: Next.js
 - **Styling**: Tailwind CSS
 - **Charts**: Chart.js with react-chartjs-2
 - **HTTP Client**: Axios
 
 ### Frontend - Mobile
+
 - **Framework**: React Native with Expo
 - **Language**: JavaScript/TypeScript
 - **Platform**: iOS & Android
 
 ### DevOps
+
 - **Containerization**: Docker & Docker Compose
 - **Web Server**: Gunicorn
 
@@ -71,6 +75,7 @@ Allenty-main/
 ## Installation
 
 ### Prerequisites
+
 - Node.js 16+ and npm
 - Python 3.8+
 - Docker & Docker Compose (optional)
@@ -138,6 +143,7 @@ docker-compose up --build
 ## Usage
 
 ### Mobile App Features
+
 - User authentication
 - Dashboard with inventory overview
 - Product listing and details
@@ -147,6 +153,7 @@ docker-compose up --build
 - User profile management
 
 ### Web Dashboard Features
+
 - Complete inventory management
 - Advanced analytics and reports
 - Employee management
@@ -155,6 +162,7 @@ docker-compose up --build
 - Chart visualizations
 
 ### API Endpoints
+
 - `/api/products/` - Product management
 - `/api/auth/` - Authentication
 - More endpoints available in Django admin
@@ -206,4 +214,4 @@ For support, please open an issue on GitHub or contact the development team.
 
 ---
 
-**Made with ❤️ by Yash Pandya**
+**Developed by Yashkumar Pandya**
