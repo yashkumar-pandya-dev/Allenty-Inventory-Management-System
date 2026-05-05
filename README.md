@@ -212,6 +212,19 @@ For support, please open an issue on GitHub or contact the development team.
 - [ ] Mobile app push notifications
 - [ ] Audit logging system
 
+## Team
+
+**Development Team:**
+- Yashkumar Pandya
+- Vraj Patel
+- Krish Trivedi
+- Priya Rana
+- Dev Chhatrala
+- Pranav Patel
+
+**Client:**
+- Pedro Henrique Gomes De Toledo
+
 ---
 
 **Developed by Yashkumar Pandya**
