@@ -1,0 +1,36 @@
+/* AllentyWeb.css */
+
+/* --- General --- */
+.web-container { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #F3F4F6; min-height: 100vh; }
+.btn-primary { background-color: #2563EB; color: white; padding: 12px; border-radius: 8px; border: none; font-weight: bold; cursor: pointer; width: 100%; margin-top: 15px; }
+.btn-primary:hover { background-color: #1D4ED8; }
+.btn-danger { background-color: #FEF2F2; color: #EF4444; border: 1px solid #FECACA; }
+.btn-danger:hover { background-color: #FEE2E2; }
+.input-field { width: 100%; padding: 12px; margin-top: 5px; margin-bottom: 15px; border: 1px solid #D1D5DB; border-radius: 8px; box-sizing: border-box; }
+.label { font-size: 14px; color: #374151; font-weight: 600; }
+
+/* --- Auth Layout (Login & Forgot Password) --- */
+.auth-layout { display: flex; height: 100vh; }
+.auth-left { flex: 1; background-color: #1E3A8A; color: white; display: flex; flex-direction: column; justify-content: center; padding: 50px; }
+.auth-left h1 { font-size: 36px; margin-bottom: 20px; font-weight: 800; }
+.auth-left p { font-size: 14px; opacity: 0.8; line-height: 1.8; }
+.auth-right { flex: 1; background-color: white; display: flex; align-items: center; justify-content: center; }
+.auth-form-container { width: 100%; max-width: 400px; padding: 20px; }
+.auth-logo { font-size: 28px; font-weight: 800; color: #1E3A8A; margin-bottom: 10px; }
+.auth-title { font-size: 24px; font-weight: bold; margin-bottom: 30px; color: #111; }
+.auth-link { color: #2563EB; text-decoration: none; font-size: 14px; font-weight: 600; display: block; margin-top: 15px; text-align: center; }
+
+/* --- Profile Layout --- */
+.profile-page { padding: 40px; max-width: 1200px; margin: 0 auto; }
+.page-header { font-size: 28px; font-weight: bold; color: #111; margin-bottom: 5px; }
+.page-subheader { color: #6B7280; margin-bottom: 30px; }
+.profile-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.card { background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); }
+.card-title { font-size: 18px; font-weight: bold; margin-bottom: 20px; color: #111; border-bottom: 1px solid #E5E7EB; padding-bottom: 10px; }
+
+/* --- Profile Specifics --- */
+.profile-header { display: flex; align-items: center; margin-bottom: 20px; }
+.avatar-large { width: 70px; height: 70px; border-radius: 50%; background-color: #1E3A8A; color: white; display: flex; align-items: center; justify-content: center; font-size: 24px; font-weight: bold; margin-right: 20px; }
+.info-row { display: flex; justify-content: space-between; margin-bottom: 15px; border-bottom: 1px solid #F3F4F6; padding-bottom: 10px;}
+.info-label { color: #6B7280; font-size: 14px; }
+.info-value { font-weight: 600; color: #111; }
